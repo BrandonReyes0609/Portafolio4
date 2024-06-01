@@ -8,10 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
-        <button className="btn btn-primary">Primary Button</button>
-      </div>
-      <div class="container">
+      <div class=".container-fluid">
         <div class="row">
           <div class="col p-3 bg-dark text-white">Brandon Javier Reyes Morales</div>
           <div class="col p-3 bg-dark text-white"></div>
