@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div class=".container-fluid">
+      <div class=".container-fluid col p-3 bg-dark text-white">
         <div class="row">
           <div class="col ">
             <div class="row">
@@ -29,7 +29,7 @@ function App() {
 
             </div>
           </div>
-          <div class="col">
+          <div class="col col p-3 bg-dark text-white">
             <img src={fotoperfil} alt="fotoperfil"style={{ width: '50%', height: 'auto' }}  />
           </div>
         </div>
