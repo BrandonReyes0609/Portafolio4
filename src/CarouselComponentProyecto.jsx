@@ -14,15 +14,15 @@ const CarouselComponentProyecto = () => {
     <Carousel showArrows={true} autoPlay={true} infiniteLoop={true}>
       <div>
         <img src={img1} alt="Imagen 1" />
-        <p className="legend">Leyenda 1</p>
+        <p className="legend">Poryecto de app para restaurantes</p>
       </div>
       <div>
         <img src={img2} alt="Imagen 2" />
-        <p className="legend">Leyenda 2</p>
+        <p className="legend">Portafolio</p>
       </div>
       <div>
         <img src={img3} alt="Imagen 3" />
-        <p className="legend">Leyenda 3</p>
+        <p className="legend">Tienda de digital</p>
       </div>
     </Carousel>
   );

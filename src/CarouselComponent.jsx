@@ -15,23 +15,18 @@ const CarouselComponent = () => {
     <Carousel showArrows={true} autoPlay={true} infiniteLoop={true}>
       <div>
         <img src={img1} alt="Imagen 1" />
-        <p className="legend">Leyenda 1</p>
-      </div>
+     </div>
       <div>
         <img src={img2} alt="Imagen 2" />
-        <p className="legend">Leyenda 2</p>
       </div>
       <div>
         <img src={img3} alt="Imagen 3" />
-        <p className="legend">Leyenda 3</p>
       </div>
       <div>
         <img src={img4} alt="Imagen 4" />
-        <p className="legend">Leyenda 4</p>
       </div>
       <div>
         <img src={img5} alt="Imagen 5" />
-        <p className="legend">Leyenda 5</p>
       </div>
     </Carousel>
   );

@@ -38,6 +38,11 @@ body {
   flex: 1;
 }
 
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .image-container {
   display: flex;
   justify-content: flex-end;
