@@ -20,6 +20,7 @@ function App() {
               </div>
               <div class="row">
                 <div class="col p-3 bg-dark text-white">Estudiante Ingenieria en Ciencias de la Computación y Tecnologías de la información</div>
+                <div class="col p-3 bg-dark text-white"></div>
 
 
 
@@ -30,8 +31,8 @@ function App() {
 
               </div>
             </div>
-            <div class="col col p-3 bg-dark text-white">
-              <img src={fotoperfil} alt="fotoperfil"style={{ width: '50%', height: 'auto' }}  />
+            <div class="col p-3 bg-dark text-white">
+              <img src={fotoperfil} alt="fotoperfil"style={{ width: '50%', height: 'auto' }} class="rounded-circle" />
             </div>
           </div>
         </p>
