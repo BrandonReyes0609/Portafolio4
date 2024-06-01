@@ -30,7 +30,7 @@ function App() {
             </div>
           </div>
           <div class="col">
-            <img src={fotoperfil} alt="fotoperfil" />
+            <img src={fotoperfil} alt="fotoperfil"style={{ width: '50%', height: 'auto' }}  />
           </div>
         </div>
       </div> 
