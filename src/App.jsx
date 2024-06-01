@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <div class=".container-fluid">
-        <div class="col p-3 bg-dark text-white">
+      <div class="row">
+        <div class="col ">
           <div class="row">
             <div class="col p-3 bg-dark text-white">Brandon Javier Reyes Morales</div>
             <div class="col p-3 bg-dark text-white"></div>
@@ -29,8 +30,8 @@ function App() {
         </div>
         <div class="col p-3 bg-dark text-white">B
           IMagen Brandon
-        </div>
-
+        </div>  
+      </div>
       </div> 
 
     </>
