@@ -1,3 +1,17 @@
+
+## Portafolio Brandon Reyes 
+Hola soy Brandon estudiante de Ing. en Ciencias de la computación
+
+## Link portafolio
+https://soft-gingersnap-bc43e0.netlify.app/
+
+# Pasos para ejecutar
+### Version de node
+```nvm use 20.12.2```
+
+### Para ejecutar el programa
+```npm run dev```
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
