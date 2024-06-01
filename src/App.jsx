@@ -9,7 +9,11 @@ function App() {
   return (
     <>
       <button className="btn btn-primary">Primary Button</button>
-
+      <div class="row">
+        <div class="col p-3 bg-primary text-white">.col</div>
+        <div class="col p-3 bg-dark text-white">.col</div>
+        <div class="col p-3 bg-primary text-white">.col</div>
+      </div>
     </>
   )
 }
