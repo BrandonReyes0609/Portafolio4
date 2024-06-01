@@ -1,7 +1,7 @@
 import React from 'react';
 import './Languajes.css';
 import { Element, Link } from 'react-scroll';
-
+import python from './assets/img/python.png';
 const Languajes = () => {
   return (
     <Element name="languajes" className="table-container">
@@ -10,7 +10,7 @@ const Languajes = () => {
         <tbody>
           <tr>
             <td>Python</td>
-            <td><img src="./assets/python.png" alt="Python" /></td>
+            <td><img src="./assets/img/python.png" alt="Python" /></td>
           </tr>
           <tr>
             <td>JavaScript</td>
