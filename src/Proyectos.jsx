@@ -11,9 +11,21 @@ function Proyectos() {
           <h2>Proyectos</h2>
           <p>_</p>
           <ul>
-            <li>Proyecto base de datos</li>
-            <li>Portafolio</li>
-            <li>Proyecto Ingenieria Software</li>
+            <li>
+              <a href="https://github.com/BrandonReyes0609/proyecto-2_db_Heroku.git" target="_blank" rel="noopener noreferrer">
+                Proyecto base de datos
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/BrandonReyes0609/Portafolio4.git" target="_blank" rel="noopener noreferrer">
+                Portafolio
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/paulabaal12/PROY-SOFTWARE.git" target="_blank" rel="noopener noreferrer">
+                Proyecto Ingenieria Software
+              </a>
+            </li>
           </ul>
           <CarouselComponentProyecto />
 
