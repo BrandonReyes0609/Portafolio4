@@ -28,10 +28,11 @@ function App() {
             <div class="col p-3 bg-dark text-white"></div>
           </div>
         </div>
-        <div class="col p-3 bg-dark text-white">B
-          IMagen Brandon
-        </div>  
-      </div>
+        <div class="col">
+          imagen brandon
+        </div>
+        </div>
+
       </div> 
 
     </>
