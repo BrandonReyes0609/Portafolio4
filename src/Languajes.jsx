@@ -198,6 +198,9 @@ const Languajes = () => {
       <Link to="habilidades" smooth={true} duration={500} className="btn btn-primary mt-5">
         Ver Habilidades
       </Link>
+      <Link to="proyectos" smooth={true} duration={500} className="btn btn-secondary mt-3">
+        Ver Proyectos
+      </Link>
     </Element>
   );
 };

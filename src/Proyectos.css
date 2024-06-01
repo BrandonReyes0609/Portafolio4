@@ -1,0 +1,8 @@
+/* Habilidades.css */
+
+.container-fluid {
+  background-color: #343a40; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  font-family: 'Consolas', monospace; /* Cambiar tipo de letra a Consolas */
+  height: 100%;
+}
