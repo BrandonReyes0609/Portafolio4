@@ -1,39 +1,43 @@
 import React from 'react';
 import './App.css';
 import fotoperfil from './assets/foto_perfil.jpeg'; // Importar la imagen
+import { Link, Element } from 'react-scroll';
 
 function App() {
   return (
-    <div className="container-fluid p-3 bg-dark text-white vh-100 d-flex align-items-center">
+    <Element name="app" className="container-fluid p-3 bg-dark text-white vh-100 d-flex align-items-center">
       <div className="row w-100 d-flex">
         <div className="text-container">
           <div className="row">
             <div className="col p-3">
               <p className="text-start typing-animation" style={{ width: '50%' }}>
-                Hola! soy Brandon Javier Reyes Morales
+                Brandon Javier Reyes Morales
               </p>
             </div>
           </div>
           <div className="row">
             <div className="col p-3">
               <p className="text-start typing-animation" style={{ width: '90%' }}>
-                Actualmente soy Estudiante Ingenieria en Ciencias de la Computación y Tecnologías de la información
+                Estudiante Ingenieria en Ciencias de la Computación y Tecnologías de la información
               </p>
             </div>
           </div>
           <div className="row">
             <div className="col p-3">
               <p className="text-start typing-animation" style={{ width: '60%' }}>
-                de la Universidad del Valle de Guatemala
+                Universidad del Valle de Guatemala
               </p>
             </div>
           </div>
         </div>
         <div className="image-container">
-          <img src={fotoperfil} alt="fotoperfil" style={{ width: '30%', height: 'auto' }} className="rounded-circle" />
+          <img src={fotoperfil} alt="fotoperfil" style={{ width: '50%', height: 'auto' }} className="rounded-circle" />
         </div>
       </div>
-    </div>
+      <Link to="habilidades" smooth={true} duration={500} className="btn btn-primary mt-5">
+        Ver Habilidades
+      </Link>
+    </Element>
   );
 }
 
